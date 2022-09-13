@@ -227,12 +227,14 @@ function generateMarkdown(answers) {
 
   ### Questions
   www.github.com/${answers.github}
+
   I can be reached at: ${answers.email}
   
   ${renderLicenseBadge(answers.license)}
   ${renderLicenseLink(answers.license)}
   
   ${renderLicenseSection(answers.license)}
+  
   [Table of Contents](#table-of-contents)
 `;
 }
