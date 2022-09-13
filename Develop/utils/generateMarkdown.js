@@ -193,6 +193,8 @@ function renderLicenseSection(license) {
     
     Exhibit B - “Incompatible With Secondary Licenses” Notice
     This Source Code Form is “Incompatible With Secondary Licenses”, as defined by the Mozilla Public License, v. 2.0.`
+  } else {
+    return ""
   }
 }
 
@@ -215,7 +217,8 @@ function generateMarkdown(answers) {
   ${answers.test}
 
   ### Questions
-  
+  www.github.com/${answers.github}
+  I can be reached at: ${answers.email}
   
   ${renderLicenseBadge(answers.license)}
   ${renderLicenseLink(answers.license)}
