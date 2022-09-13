@@ -226,7 +226,7 @@ function generateMarkdown(answers) {
   ${answers.test}
 
   ### Questions
-  www.github.com/${answers.github}
+  My github account: www.github.com/${answers.github}
 
   I can be reached at: ${answers.email}
   
@@ -234,7 +234,7 @@ function generateMarkdown(answers) {
   ${renderLicenseLink(answers.license)}
   
   ${renderLicenseSection(answers.license)}
-  
+
   [Table of Contents](#table-of-contents)
 `;
 }
