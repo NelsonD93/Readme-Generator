@@ -40,12 +40,24 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please select your desired license',
-        choices: ['MIT','Mozilla','ISC']
+        choices: ['MIT','Mozilla','ISC','No license']
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please provide your github profile name',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide your email address',
     }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+}
 
 // TODO: Create a function to initialize app
 function init() {
