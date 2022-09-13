@@ -219,7 +219,7 @@ function generateMarkdown(answers) {
   ## Usage
   ${answers.usage}
 
-  ##Contributing
+  ## Contributing
   ${answers.contribution}
 
   ## Tests
